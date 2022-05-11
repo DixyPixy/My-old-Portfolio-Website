@@ -1,0 +1,13 @@
+/*!
+ * jQuery ClassyLeaves
+ * www.class.pm
+ *
+ * Written by Marius Stanciu - Sergiu <marius@class.pm>
+ * Licensed under the MIT license www.class.pm/LICENSE-MIT
+ * Version 1.1.0
+ *
+ */.ClassyLeaf,.ClassyLeafFalling{position:fixed;top:0;left:0;opacity:0;z-index:0}.x1{width:75px;height:75px}.x2{width:100px;height:100px}.x3{width:125px;height:125px}.x4{width:150px;height:150px}
+  @media screen and (max-width:453px){
+	 ClassyLeaf,.ClassyLeafFalling{position:fixed;top:0;left:0;opacity:0;z-index:0}.x1{width:42px;height:42px}.x2{width:50px;height:50px}.x3{width:62px;height:62px}.x4{width:75px;height:75px}
+	 
+ }

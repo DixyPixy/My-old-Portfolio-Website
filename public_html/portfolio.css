@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+body{
+	background-color:#78AB46;
+	}
+
+#wrraper{
+	width:1200px;
+	font-family: 'Yeon Sung', cursive;
+	color:#000000;
+	font-size:25px;
+	margin-left:auto;
+	margin-right:auto;
+    background-color:#A9C9A4;
+	overflow:hidden;
+	
+	}	
+#textheader{
+    text-shadow: 0 0 3px #78AB46;
+	font-weight:700;
+	text-align:center;
+	font-size:60px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	width:100%;
+	margin-bottom:2.5%;
+	margin-top:2.5%;
+}
+#meny img{margin:2.3%;
+		border-radius:5%;
+
+}
+
+
+#headerimageup{  margin-top:15%; }
+#headerimagedown{  margin-bottom:10%;}
+
+.bottom {
+			cursor:pointer;
+			width:33%;
+			height:85px;
+			text-align:center;
+			position:relative;
+			background-image:url(jpg/podloga12.svg);
+			background-repeat:no-repeat;
+			background-size:auto;
+			background-position:bottom;
+			font-size:30px;
+		} 
+
+
+.bottom h3{
+		margin:0;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-right:-50%;
+		transform:translate(-50%, -50%)
+		
+	}
+/* this is if i want to isolate all button for work above other buttons
+#all{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+.bottom:hover{ 
+  animation: shake 0.6s infinite;
+  animation-timing-function: linear; color:aliceblue;  
+}
+.navigation h3:hover{
+	color:#fff;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0.5deg); }
+   25% { transform: rotate(1.5deg); }
+  50% { transform: rotate(-1.5deg); }
+   75% { transform: rotate(-2.5deg); }
+  100% { transform: rotate(-1.5deg); }
+}
+
+a{	text-shadow: 0 0 3px #78AB46;
+		color:#000;
+		text-decoration:none;}
+	
+.ukrasnaslika{
+			width:100%;
+			display: inline-flex;
+		}
+.ukrasnaslika img{
+			width:80%;
+			margin: auto auto;
+				
+	}
+#aboutobjasnjenje{
+			padding-top:10%;
+		}
+#aboutobjasnjenje img{
+			float:right;
+			border-radius:50%;
+			width:30%;
+			height:30%;
+		}
+footer{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	font-size:15px;
+	text-align:center;
+	padding-top:5%;
+	padding-bottom:5%;
+		}
+#sidebar h2{text-shadow: 0 0 3px #78AB46;}
+#meny h2{text-shadow: 0 0 3px #78AB46;}	
+
+	@media screen and (min-width:1024px) and (max-width:1260px) {
+#wrraper {
+	
+  width:960px;
+ }
+ h1{
+	text-align:center;
+	vertical-align:middle;
+}
+#meny img{
+		 border:2px solid #78AB46;
+		 width:47%;
+		 float:left;
+		display:block;
+		margin:1.2%;
+		}
+
+.navigation{
+	width:960px;
+	}
+
+.ukrasnaslika img{
+	width:100%;
+		
+	}
+
+footer{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	font-size:15px;
+	text-align:center;
+	padding-top:5%;
+	padding-bottom:5%;
+		}
+#textheader{
+	font-weight:700;
+	text-align:center;
+	font-size:50px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	width:100%;
+	margin-bottom:2.5%;
+	margin-top:2.5%;
+}
+a{	text-shadow: 0 0 3px #78AB46;
+		color:#000;
+		text-decoration:none;}
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+ #wrraper {
+ width:700px;
+
+ }
+a{	text-shadow: 0 0 3px #78AB46;
+		color:#000;
+		text-decoration:none;}
+/* this is if i want to isolate all button for work above other buttons
+#all{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+#meny img{
+	width:95%;
+	border:2px solid #78AB46;
+	height:100%;
+	display:block;
+
+	 }
+#textheader{
+	font-weight:700;
+	text-align:center;
+	font-size:40px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	width:100%;
+	margin-bottom:2.5%;
+	margin-top:2.5%;
+}
+ 
+.objasnjenje{
+		 float:none;
+		 width:100%;
+		padding-top:100px;
+			}
+
+.ukrasnaslika img{
+			width:100%;	
+	}
+		
+footer{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	font-size:15px;
+	text-align:center;
+	padding-top:5%;
+	padding-bottom:5%;
+		}		
+}
+
+@media screen and (min-width:454px) and (max-width:767px) {
+ #wrraper {
+ 			 width:90%;
+  			font-size:20px;
+ }
+.ukrasnaslika img{
+			width:100%;
+		}
+		
+.bottom {
+			font-size:20px;
+			background-size:70%;
+			height:70px;
+			margin-left:auto;
+			margin-right:auto;
+			}
+a{		text-shadow: 0 0 3px #78AB46;
+		color:#000;
+		text-decoration:none;}
+#meny img{
+		width:100%;
+		margin-bottom:2px;
+		border:2px solid #78AB46;
+		display:block;
+		margin-left:-1%;
+		  }
+.objasnjenje{
+		 float:none;
+		 width:100%;
+			}
+ #many{
+	 width:90%;
+	 }	
+ footer{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	font-size:15px;
+	text-align:center;
+	padding-top:5%;
+	padding-bottom:5%;
+		}
+#textheader{
+	font-weight:700;
+	text-align:center;
+	font-size:40px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	width:100%;
+	margin-bottom:2.5%;
+	margin-top:2.5%;
+}
+		
+		
+}
+.navigation{	
+width:100%;
+overflow:hidden;
+	
+	}
+
+.bottom{
+	
+	float:left;
+	display:block;
+	width:33.33%;
+	
+	}
+	
+	/* this is if i want to isolate all button for work above other buttons
+#all{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+
+#meny {
+	text-height:48pt;
+	padding:40px;
+	}	
+#meny img{
+	margin-bottom:2px;
+	border:2px solid #78AB46;}
+#sidebar {
+	border-bottom:50px;
+	text-height:48pt;
+	padding:5%;
+	overflow:hidden;
+		}
+.objasnjenje{
+			float:left;
+			width:100%;
+			padding-bottom:5%;
+			}
+.ukrasnaslika{
+		clear:both;
+		align-context:center;
+		}
+
+
+.fancybox-title-over-wrap {
+    width: 100%;
+    padding: 0;
+}
+.fancybox-title-over-wrap > div {
+    padding: 10px;	
+}
+
+@media screen and (max-width:453px){
+	.bottom{ 
+		font-size:20px;
+		background-size:85%;
+		height:60px;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+#graphic h3{
+	
+		margin:0;
+		position:absolute;
+		top:40%;
+		left:50%;
+		margin-right:-50%;
+		transform:translate(-50%, -50%)
+}
+	
+	/* this is if i want to isolate all button for work above other buttons
+#all{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+
+	
+a{	text-shadow: 0 0 3px #78AB46;
+		color:#000;
+		text-decoration:none;}
+
+	
+#headerimageup{  margin-top:30%; }
+	
+#wrraper {
+  font-size:15px;
+  width:90%;
+ }
+ 
+ #sidebar{
+     padding-top:10%;
+ }
+ 
+.ukrasnaslika img{
+		width:100%;
+		
+	}
+#textheader{
+	font-weight:700;
+	text-align:center;
+	font-size:30px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	width:100%;
+	margin-top:2.5%;
+	margin-bottom:2.5%;
+}
+#meny{
+	padding:5%;
+}			
+#meny img{
+		 width:100%;
+		 display:block;
+		 margin-bottom:2px;
+		 border:2px solid #78AB46;
+		 margin-left:-2%;
+		 }
+.objasnjenje{
+		 float:none;
+		 width:100%;
+		 padding-bottom:5%;
+			}				
+footer{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	font-size:15px;
+	text-align:center;
+	padding-top:5%;
+	padding-bottom:5%;
+		}
+		
+		
+}

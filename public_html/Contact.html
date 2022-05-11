@@ -1,0 +1,139 @@
+<!doctype html>
+<html nal="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Contact form Diana Djordjevic web designer and php developer">
+<meta name="author" content="Diana Djordjevic">
+<meta name="robots" content="nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="logo services, diana djordjevic portfolio,web design,
+ web development,creative websites">
+<title>Contact Page</title>
+
+<link rel="stylesheet" type="text/css" href="meyer.css">
+<link href="contact.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css">
+<script  src="fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.css">
+<script  src="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.js"></script>
+<script  src="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-media.js"></script>
+<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.css">
+<script src="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.js"></script>
+<script>
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<script>
+$(document).ready(function() {
+	$(".fancybox-thumb").fancybox({
+		prevEffect	: 'none',
+		nextEffect	: 'none',
+		helpers	: {
+			title	: {
+				type: 'outside'
+			},
+			thumbs	: {
+				width	: 50,
+				height	: 50
+			}
+		}
+	});
+});
+</script>
+<script>
+$(".fancybox").fancybox({
+    afterShow: function() {
+        $(".fancybox-title").wrapInner('<div />').show();
+        
+        $(".fancybox-wrap").hover(function() {
+            $(".fancybox-title").show();
+        }, function() {
+            $(".fancybox-title").hide();
+        });
+    },
+    helpers : {
+        title: {
+            type: 'over'
+        }
+    }
+});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="Create-Leaves-Falling-Rotating-Effects-with-jQuery-CSS3/js/jquery.rotate.js"></script>
+<script src="Create-Leaves-Falling-Rotating-Effects-with-jQuery-CSS3/js/jquery.classyleaves.min.js"></script>
+<link rel="stylesheet" href="Create-Leaves-Falling-Rotating-Effects-with-jQuery-CSS3/css/jquery.classyleaves.min.css">
+<script>
+$(document).ready(function() {
+var tree = new ClassyLeaves({
+leaves: 50, // number of leaves to spawn initially
+maxY: 100, // spread size
+multiplyOnClick: true, // whether to multiply the leaf when the user clicks on it
+multiply: 1, // number of images to spawn when clicking on a leaf
+infinite: true, // if you want the leaves to never stop falling
+speed: 3000, // speed of the falling leaf animation
+numImages: 8, // total number of images in the leaves folder
+folder: 'Create-Leaves-Falling-Rotating-Effects-with-jQuery-CSS3/images/leaves/' 
+});
+});
+
+</script>
+</head>
+<body>
+<div id="wrraper">
+
+<div id="header" class="ukrasnaslika">
+<img src="jpg/logogore12345.svg"  alt=""/>
+</div>
+<div id="meny">
+<h2  >CONTACT</h2>
+<br/>
+			<h3>Let's work together!</h3>
+			<h3>I'm ready for new projects.</h3>
+			
+<br/>		
+<form target="my_iframe" action="mail.php" id="contact1" method="POST" name="contactForm">
+
+<p>
+<label  for="ime">Name:<br/> </label>
+<input  type="text" name="ime" required /></p>
+
+<p>
+<label  for="prezime">Lastname:<br/> </label>
+ <input  type="text" name="prezime" required/></p>
+
+
+<p><label  for="email">Contact e-mail:<br/> </label>
+<input type="email" name="email" required/></p>
+
+<p><label for="message">Project description:<br/> </label>
+ <textarea id="textarea" name="message" cols="40" rows="10" required></textarea></p>
+
+<input id="submit" name="submit" type="submit" value="Send Message "/>
+
+</form>
+<iframe name="my_iframe" height="30px" width="auto" frameborder="0"></iframe>
+
+
+</div>
+<div class="ukrasnaslika">
+<img src="jpg/logodole1234.svg"  alt="" />
+</div>
+<div class="navigation">
+<div class="bottom"><a href="index.html#header"><h3>Home</h3></a></div>
+<div class="bottom"><a href="index.html#aboutobjasnjenje"><h3>About me</h3></a></div>
+<div class="bottom"><a href="index.html#meny"><h3>Work</h3></a></div>
+
+
+</div>
+<footer><p>Diana Djordjevic Portfolio</p><p>Copyright &copy; 2021</p>
+
+</footer>
+</div>
+</body>
+</html>
